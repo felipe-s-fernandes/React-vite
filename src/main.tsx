@@ -1,18 +1,19 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './aulas/aula07/App'
-
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
-import styled from "styled-components"
 const Wrapper = styled.div`
   font-family: 'Roboto';
   font-weight: 400;
+
 `
 
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './aulas/aula08/App'
+import styled from "styled-components"
+    
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
     <Wrapper>
