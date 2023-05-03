@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './aulas/aula08/App'
+import App from './aulas/aula09/questao02/Input'
 import styled from "styled-components"
     
 
